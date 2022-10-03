@@ -1,0 +1,19 @@
+h2 {
+    color: red;
+    background-color: yellow;
+    font-size: 5em;
+}
+h2#list-tag {
+    color: white;
+    background-color: blue;
+}
+
+.fg-blue{
+    color: blue;
+    background-color: yellow;
+}
+
+ul > li {
+    background-color: green;
+    color:white;
+}

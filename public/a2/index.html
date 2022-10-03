@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="index.css" rel = "stylesheet"/>
 </head>
 <body>
 
-<h1>HTML Examples</h1>
+<h1 class = "fg-blue">
+    HTML Examples
+</h1>
+
 <h2>Heading Tags</h2>
 Text documents are often broken up into several sections and subsections. Each section is usually prefaced with a short
 title or heading that attempts to summarize the topic of the section it precedes. For instance this paragraph is
@@ -16,25 +20,26 @@ Tags, etc. HTML heading tags can be used to format plain text so that it renders
 There are 6 heading tags: h1, h2, h3, h4, h5, and h6. Tag h1 is the largest heading and h6 is the smallest heading.
 
 <h2>Paragraph Tags</h2>
-<p>
+
+<p class = "fg-blue">
     This is a paragraph. We often separate a long set of sentences with vertical spaces to make the text easier to read.
     Browsers ignore vertical white spaces and render all the text as one single set of sentences. To force the browser
     to add vertical spacing, wrap the paragraphs you want to separate with the paragraph tag
 </p>
 
-<h2>List Tags</h2>
+<h2 id = "list-tag">List Tags</h2>
 <h3>Ordered List Tag</h3>
 How to join the 1%
 <ol>
     <li>Get a masters in computer science</li>
-    <li>Get a $100K+ starting salary job</li>
+    <li class = "fg-blue">Get a $100K+ starting salary job</li>
     <li>Marry a like-minded engineer</li>
     <li>Do great work for a decade</li>
 </ol>
 
 <h3>Unordered List Tag</h3>
 My favorite books (in no particular order)
-<ul>
+<ul class = "fg-blue">
     <li>Dune</li>
     <li>Lord of the Rings</li>
     <li>Ender's Game</li>
@@ -137,7 +142,6 @@ Loading a local image:<br/>
        id="text-fields-dob"
        value="2000-01-21"/><br/>
 
-</body>
 
 <h2>Text boxes</h2>
 <form id="textarea">
@@ -277,4 +281,5 @@ Checkout my <a href="other-page.html">other page</a>
 <h2>Embedding Google slides</h2>
 <a href="#top">Top</a><br/>
 
+</body>
 </html>

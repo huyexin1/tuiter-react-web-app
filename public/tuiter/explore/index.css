@@ -1,0 +1,87 @@
+body{
+    font-family:"Arial Black";
+    background-color:black;
+    color: white;
+}
+.input-style{
+    height:35px;
+    border-radius: 50px;
+    width: 90%;
+}
+
+.margin-right {
+    float:right;
+    margin-right: 12px;
+}
+
+.font-size-color{
+    font-size: 15px;
+    color: rgb(110,118,125);
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+
+.font-size-color2{
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+
+.float-left {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 13%;
+    float: left;
+}
+.float-done {
+    clear: both;
+}
+
+.float-left1{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+.rounded-corners-all-around {
+    border-radius: 15px;
+}
+.color-light-grey{
+    color:lightgray;
+}
+
+
+.wd-nav-tabs {
+    font-size: 15px;
+    color: rgb(29,161,242);
+    padding: 0;
+}
+
+.wd-nav-tabs li {
+    list-style-type:none;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected{
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.image-margin-right {
+    float:right;
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+}
+
