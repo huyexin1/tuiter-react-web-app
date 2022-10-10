@@ -3,10 +3,46 @@ body{
     background-color:black;
     color: white;
 }
+
+.bg-black{
+    background-color: black;
+}
+
+.text-color-white {
+    color:lightgray;
+}
+
+.text-color-light{
+    color:white;
+}
+
+.border{
+    border-color: lightgray;
+}
+
+.text-color-white {
+    color:lightgray;
+}
+
+.text-color-gray{
+    color:gray;
+}
+.wd-search-tuiter{
+    bottom:12px;
+    left:10px;
+}
+.icon-size{
+    width:70%;
+    height:60%;
+}
 .input-style{
     height:35px;
     border-radius: 50px;
     width: 90%;
+}
+.icon-image{
+    width: 35px;
+    height:35px;
 }
 
 .margin-right {
@@ -29,14 +65,14 @@ body{
     color: rgb(110,118,125);
 }
 
-.float-left {
-    padding-bottom: 16px;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
-    width: 13%;
-    float: left;
-}
+/*.float-left {*/
+/*    padding-bottom: 16px;*/
+/*    padding-top: 16px;*/
+/*    padding-right: 16px;*/
+/*    padding-left: 16px;*/
+/*    width: 13%;*/
+/*    float: left;*/
+/*}*/
 .float-done {
     clear: both;
 }
