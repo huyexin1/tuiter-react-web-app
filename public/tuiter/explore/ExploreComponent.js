@@ -2,7 +2,6 @@ import PostSummaryList from "./PostSummaryList/PostSummaryList.js";
 
 const ExploreComponent = () => {
     return(`
-            <div class="col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
             <div class="row">
                 <div class="col-sm-10 col-md-10 col-xl-10">
                     <div class="position-relative">
@@ -14,7 +13,7 @@ const ExploreComponent = () => {
                     <i class="fa fa-cog icon-size" aria-hidden="true"></i>
                 </div>
             </div>
-           </div>
+           
            <ul class="nav mb-2 nav-tabs">
                      <li class="nav-item">
                     <a class="nav-link active" href="#">For You</a>
