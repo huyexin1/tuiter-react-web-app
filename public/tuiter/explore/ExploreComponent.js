@@ -4,7 +4,7 @@ const ExploreComponent = () => {
     return(`
             <div class="col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
             <div class="row">
-                <div class="col-sm-10 col-md-10 col-xl-10" >
+                <div class="col-sm-10 col-md-10 col-xl-10">
                     <div class="position-relative">
                         <input class=" ps-4 form-control rounded-pill" placeholder="  Search Tuiter"/>
                         <i class="fas fa-search position-absolute wd-search-tuiter"></i>

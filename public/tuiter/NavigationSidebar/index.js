@@ -5,12 +5,12 @@ const NavigationSidebar = () => {
        <i class="fab fa-twitter"></i>
      </a>
      
-     <a class="list-group-item list-group-item-action">
+     <a href="../explore/HomeScreen/index.html" class="list-group-item list-group-item-action">
      <i class="fa fa-home " aria-hidden="true"></i>
      <div class="d-none d-xl-block d-xxl-block float-md-end">Home</div>
      </a>
      
-     <a class="list-group-item list-group-item-action">
+     <a href="../explore/index.html" class="list-group-item list-group-item-action">
      <i class="fa fa-hashtag " aria-hidden="true"></i>
      <div class="d-none d-xl-block d-xxl-block float-md-end">Explore</div>
      </a>
