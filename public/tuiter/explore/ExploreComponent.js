@@ -6,7 +6,7 @@ const ExploreComponent = () => {
                 <div class="col-sm-10 col-md-10 col-xl-10">
                     <div class="position-relative">
                         <input class=" ps-4 form-control rounded-pill" placeholder="  Search Tuiter"/>
-                        <i class="fas fa-search position-absolute wd-search-tuiter"></i>
+                        <i class="fas fa-search position-absolute wd-search-tuiter text-color-white"></i>
                     </div>
                 </div>
                 <div class="col-2 col-md-2 col-xl-2">
