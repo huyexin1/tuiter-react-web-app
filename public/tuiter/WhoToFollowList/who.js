@@ -7,7 +7,7 @@ export default [
     {   avatarIcon: '../explore/virgin.jpg',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
-    {   avatarIcon: '../explore/nasa.jpg',
+    {   avatarIcon: '../explore/nasa.png',
         userName: 'NASA', handle: 'NASA', },
     {   avatarIcon: '../explore/tesla.jpg',
         userName: 'Tesla', handle: 'Tesla', }, ];
