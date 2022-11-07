@@ -29,12 +29,12 @@ const ProfileComponent = () => {
                     <div>
                         <img src={`../../images/${profile.bannerPicture}`} className="w-100"/>
                     </div>
-                    <div className="rounded-circle ">
+                    <div className="rounded-circle">
                         <img className="rounded-circle position-relative" src={`/images/${profile.profilePicture}`} width={100}/>
 
                     </div>
                     <div>
-                        <Link to="/tuiter/profile/edit-profile">
+                        <Link to="/tuiter/edit-profile">
                             <button className="btn btn-outline-dark rounded-pill top-margin float-end margin-right">
                                 Edit Profile</button>
                         </Link>
@@ -46,28 +46,28 @@ const ProfileComponent = () => {
                     <span className="fw-bolder">{profile.firstName} {profile.lastName}</span>
                     <span className="text-secondary wd-margin-bottom-small">{profile.handle}</span>
                     <span className="text-body wd-margin-bottom-small">{profile.bio}</span>
+                    <br/>
+                    <br/>
+                    <div className="row bottom-margin">
+                        <div className='col-3'>
+                            <a href="#" className="text-secondary">
+                                <FontAwesomeIcon className="wd-right-margin" icon={faLocationDot} />
+                                <span>{profile.location}</span>
+                            </a>
+                        </div>
+                        <div className='col-3'>
+                            <a href="#" className="text-secondary">
+                                <FontAwesomeIcon className="wd-right-margin" icon={faBirthdayCake} />
+                                <span>{profile.dateOfBirth}</span>
+                            </a>
+                        </div>
+                        <div className='col-3'>
+                            <a href="#" className="text-secondary">
+                                <FontAwesomeIcon className="wd-right-margin" icon={faCalendar} />
+                                <span>{profile.dateJoined}</span>
+                            </a>
+                        </div>
 
-                    <div className="push-left  wd-margin-bottom-small">
-                        <ul className="wd-post-stats-reactions">
-                            <li>
-                                <a href="#" className="text-secondary">
-                                    <FontAwesomeIcon className="wd-right-margin" icon={faLocationDot} />
-                                    <span>{profile.location}</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-secondary">
-                                    <FontAwesomeIcon icon={faBirthdayCake} />
-                                    <span>Born {profile.dateOfBirth}</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-secondary">
-                                    <FontAwesomeIcon icon={faCalendar} />
-                                    <span>Joined {profile.dateJoined}</span>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
 
                     <span className="text-secondary">

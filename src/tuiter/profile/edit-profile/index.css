@@ -1,14 +1,13 @@
-.wd-div-border {
-    border: 1px solid lightgrey;
+.position-relative {
+    margin-left: 2%;
+    margin-top: -10%;
+    float: start;
 }
 
-.wd-save-button {
-    margin-right: 8px;
-    margin-top: 5px;
+.margin-top{
+    margin-top: -10%;
 }
 
-.wd-edit-profile {
-    margin-left: 8px;
-    text-decoration: none;
-    color: #1a1a1a;
+.margin-bottom{
+    margin-bottom: 10px;
 }
