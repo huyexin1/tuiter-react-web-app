@@ -1,10 +1,11 @@
 import Labs from "./labs";
 import HelloWorld from "../src/labs/helloworld";
+import Assignment7 from "./labs/a7";
 import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
-function App() {
+function App(){
   return (
       <BrowserRouter>
       <div className="container">
@@ -13,10 +14,11 @@ function App() {
                      element={<Labs/>}/>
               <Route path="/hello"
                      element={<HelloWorld/>}/>
+              <Route path="/a7"
+                     element={<Assignment7/>}/>
               <Route path="/tuiter/*"
                      element={<Tuiter/>}/>
           </Routes>
-
       </div>
       </BrowserRouter>
 
@@ -24,3 +26,4 @@ function App() {
 }
 
 export default App;
+

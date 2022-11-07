@@ -1,0 +1,15 @@
+ {
+  "firstName": "Yexin",
+  "lastName": "Hu",
+   "tuits": 15,
+  "handle": "@yexinhu",
+  "profilePicture": "ugly_candle.jpg",
+  "bannerPicture": "maple.jpg",
+  "bio": "Computer science student, data science professional",
+  "website": "linkedin.com/in/yexinhu/",
+  "location": "Toronto, ON",
+  "dateOfBirth": "9/20",
+  "dateJoined": "08/2022",
+  "followingCount": 340,
+  "followersCount": 223
+}
